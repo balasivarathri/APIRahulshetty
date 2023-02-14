@@ -23,7 +23,7 @@ public class Payloads {
     public static String coursePrice(){
         return "{\n" +
                 "\"dashboard\": {\n" +
-                "\"purchaseAmount\": 910,\n" +
+                "\"purchaseAmount\": 1182,\n" +
                 "\"website\": \"rahulshettyacademy.com\"\n" +
                 "},\n" +
                 "\"courses\": [\n" +
@@ -49,5 +49,13 @@ public class Payloads {
                 "}\n" +
                 "]\n" +
                 "}";
+    }
+    public static String addBookApi(String isbn, String aisle){
+        return "{\n" +
+                "\"name\":\"Learn Appium Automation with Java\",\n" +
+                "\"isbn\":\""+isbn+"\",\n" +
+                "\"aisle\":\""+aisle+"\",\n" +
+                "\"author\":\"John foe\"\n" +
+                "}\n";
     }
 }
